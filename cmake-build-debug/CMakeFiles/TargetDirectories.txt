@@ -1,0 +1,3 @@
+/home/jocker/Desktop/OSroject/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir
+/home/jocker/Desktop/OSroject/xv6-riscv/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jocker/Desktop/OSroject/xv6-riscv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
