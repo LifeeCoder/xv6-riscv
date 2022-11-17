@@ -65,11 +65,13 @@ kfree(void *pa)
 int kfreemem(){
     int counter = 0 ;
     struct run *r ;
+    acquire(&kmem.lock);
     r = kmem.freelist;
     while (r!=0){
         counter+=1;
         r = r->next;
     }
+    release(&kmem.lock);
     return counter;
 }
 // Allocate one 4096-byte page of physical memory.

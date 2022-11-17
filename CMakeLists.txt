@@ -80,6 +80,7 @@ add_executable(xv6_riscv
         user/usys.pl
         user/wc.c
         user/zombie.c
+        user/memm.c
         LICENSE
         Makefile
-        README)
+        README user/memm.c)
